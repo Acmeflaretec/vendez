@@ -4,6 +4,7 @@ body {
   color: #040000;
 }
 
+
 .layout_padding {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -835,6 +836,8 @@ a:focus {
 .footer_section a {
   color: inherit;
 }
+p.dcolor{
+  background-color: rgb(255, 64, 0) ;}
 
 /* end footer section*/
 /*# sourceMappingURL=style.css.map */
