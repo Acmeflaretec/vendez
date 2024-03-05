@@ -91,116 +91,69 @@
     <!-- end header section -->
   </div>
 
+  <style>
+    .contact-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    flex: 1 1 30%; /* Adjust the width as needed */
+    padding: 20px;
+    margin: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.info-item h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .info-item {
+        flex-basis: 100%; /* Make each item full width on smaller screens */
+    }
+}
+
+  </style>
+
+  <div class="mt-5" style="text-align: center;">
+
+    <h2 class="mt-5" style="display: inline;"> Contact Us</h2>
+  </div>
+ 
+  <div class="contact-info mt-5">
+
+   
+
+    <div class="info-item">
+      <h3>Address</h3>
+      <p>Vendez,<br>Vayalapallil Building,<br>Kangazha p.o, Pathanad, kottayam,<br>686555</p>
+  </div>
+  <div class="info-item">
+    <h3>Phone</h3>
+    <p><a style="color: black;" href="tel:+918086201748">+91 8086201748</a></p>
+    <p><a style="color: black;" href="tel:+919539844501">+91 9539844501</a></p>
+    <p><a style="color: black;" href="tel:+918075660350">+91 8075660350</a></p>
+</div>
+<div class="info-item">
+  <h3>Email</h3>
+  <p><a style="color: black; " href="mailto:vendez.franchise@gmail.com">vendez.franchise@gmail.com</a></p>
+</div>
+</div>
+
+
+
+
 
   <!-- contact section -->
 
-  <section class="contact_section layout_padding">
+  <section class="contact_section layout_padding" style="margin-top: -20px;">
     <div class="container">
-      <div class="heading_container">
-        <h2>
-          Contact Us
-        </h2>
-      </div>
+     
       <div class="row">
-        <style>
-          .contact_information {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-          }
-        
-          .address_cont {
-            padding: 10px;
-            margin-bottom: 20px;
-            background-color: #f8f8f8;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease-in-out;
-          }
-        
-          .address_cont:hover {
-            transform: translateY(-5px);
-          }
-        
-          .icon_bottom {
-            font-size: 24px;
-            margin-bottom: 10px;
-          }
-        
-          .info_cont {
-            text-align: center;
-          }
-        
-          .info_cont a {
-            text-decoration: none;
-            color: inherit;
-            font-size: 18px;
-            transition: color 0.3s ease-in-out;
-          }
-        
-          .info_cont a:hover {
-            color: #ff4081;
-          }
-        </style>
-        
-        <div class="col-md-6">
-          <div class="contact_information">
-            <!-- <div class="col-lg-412 col-md-12 col-sm-12 col-xs-12 address_cont">
-              <div class="information_bottom text_align_center">
-                <div class="icon_bottom">
-                  <i class="fa fa-road" aria-hidden="true"></i>
-                </div>
-                <div class="info_cont">
-                  <h4>                  </h4>
-                </div>
-              </div>
-            </div> -->
-            <div class="col-lg-412 col-md-12 col-sm-12 col-xs-12 address_cont">
-              <div class="information_bottom text_align_center">
-                <div class="icon_bottom">
-                  <i class="fa fa-user" aria-hidden="true"></i>
-                </div>
-                <div class="info_cont">
-                  <a href="tel:+919539844501">+91 9539844501</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-412 col-md-12 col-sm-12 col-xs-12 address_cont">
-              <div class="information_bottom text_align_center">
-                <div class="icon_bottom">
-                  <i class="fa fa-user" aria-hidden="true"></i>
-                </div>
-                <div class="info_cont">
-                  <a href="tel:+918086201748">+91 8086201748</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-412 col-md-12 col-sm-12 col-xs-12 address_cont">
-              <div class="information_bottom text_align_center">
-                <div class="icon_bottom">
-                  <i class="fa fa-user" aria-hidden="true"></i>
-                </div>
-                <div class="info_cont">
-                  <a href="tel:+918075660350">+91 8075660350</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-412 col-md-12 col-sm-12 col-xs-12 address_cont">
-              <div class="information_bottom text_align_center">
-                <div class="icon_bottom">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
-                </div>
-                <div class="info_cont">
-                  <a href="mailto:vendez.franchise@gmail.com">vendez.franchise@gmail.com</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        
-        <div class="col-md-6">
+
+        <div class="col-md-12">
           <div class="map_container" style="position: relative; overflow: hidden; padding-top: 56.25%;">
             <div class="map" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3935.00161573223!2d76.6915752!3d9.5085879!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b0631fb32af6b3b%3A0xae42411dfe914a0!2sVAYALAPALLIL%20AGENCIES%20house!5e0!3m2!1sen!2sin!4v1709574445990!5m2!1sen!2sin" width="100%" height="100%" style="border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -216,78 +169,7 @@
 
 
   <!-- info section -->
-  <section class="info_section" style="background-color: rgb(255, 64, 0)">
-    <div class="container">
-      <h4 >Get In Touch</h4>
-      <div class="row">
-        <div class="col-lg-10 mx-auto">
-          <div class="info_items">
-            <div class="row">
-              <div class="col-md-4">
-                <a href="">
-                  <div class="item">
-                    <div class="img-box">
-                      <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    </div>
-                    <p class="dcolor" style="background-color: rgb(255, 64, 0)">      
-                      Vendez,
-                      Vayalapallil Building,
-                      Kangazha p.o, Pathanad, kottayam,
-                      686555        </p>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md-4">
-                <a href="tel:+919539844501">
-                  <div class="item">
-                    <div class="img-box">
-                      <i class="fa fa-phone" aria-hidden="true"></i>
-                    </div>
-                    <p class="dcolor" style="background-color: rgb(255, 64, 0)"> Call : +91 9539844501 </p>
-                  </div>
-                </a>
-                <a href="tel:+918086201748"> 
-                  <p class="dcolor" style="background-color: rgb(255, 64, 0);color: white;"> Call : +91 8086201748 </p>
-                </a>
-                <a href="tel:+918075660350"> 
-                  <p class="dcolor" style="background-color: rgb(255, 64, 0);color: white;"> Call : +91 8075660350 </p>
-                </a>
-              </div>
-              
-              <div class="col-md-4">
-                <a href="mailto:vendez.franchise@gmail.com">
-                  <div class="item">
-                    <div class="img-box">
-                      <i class="fa fa-envelope" aria-hidden="true"></i>
-                    </div>
-                    <p class="dcolor" style="background-color: rgb(255, 64, 0)">vendez.franchise@gmail.com</p>
-                  </div>
-                </a>
-                
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="social-box">
-      <h4>Follow Us</h4>
-      <div class="box">
-        <a href="">
-          <i class="fa fa-facebook" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-youtube" aria-hidden="true"></i>
-        </a>
-        <a href="">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-        </a>
-      </div>
-    </div>
-  </section>
+ 
 
   <!-- end info_section -->
 
@@ -296,7 +178,7 @@
     <div class="container">
       <p>
       Copyrights  &copy; <span id="displayDateYear"></span> All Rights Reserved .Designed by
-      <a href="https://www.acmeflare.in" style="color: rgb(17, 7, 200)">
+      <a href="https://www.acmeflare.in" >
         Acmeflare Technologies</a
       >
      
